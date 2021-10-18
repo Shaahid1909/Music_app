@@ -7,17 +7,11 @@ class PlayerViewController: UIViewController,AVAudioPlayerDelegate  {
 
     public var position: Int = 0
     public var songs: [Song] = []
-
     @IBOutlet var songNameLabel: UILabel!
-    
     @IBOutlet var artistNameLabel: UILabel!
-    
     @IBOutlet var albumNameLabel: UILabel!
-    
     var player: AVAudioPlayer?
 
-    
-    
     @IBOutlet weak var artistImage: UIImageView!
     
     @IBOutlet var playButton: UIButton!
